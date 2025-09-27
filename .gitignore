@@ -1,0 +1,16 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore compiled files
+*.o
+*.obj
+*.out
+*.exe
+
+# Ignore archives
+*.zip
+*.tar
+*.gz
+
+# Ignore bin folder
+*/bin
