@@ -2,7 +2,7 @@
 
 g++ hw02.cpp -o ./bin/hw02;
 
-./bin/hw02 < datapub/pub01.in
+./bin/hw02 < datapub/pub03.in
 
 # # Test01 Mandatory
 # ./bin/hw01 < datapub/pub01.in > datapub/my-pub01.out;
