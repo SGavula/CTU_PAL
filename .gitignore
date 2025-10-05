@@ -4,7 +4,6 @@
 # Ignore compiled files
 *.o
 *.obj
-*.out
 *.exe
 
 # Ignore archives
