@@ -13,3 +13,5 @@
 
 # Ignore bin folder
 */bin
+
+*/datapub/my-pub*.out
