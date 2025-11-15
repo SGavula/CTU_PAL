@@ -1,216 +1,189 @@
 #include <iostream>
 #include <vector>
 #include <tuple>
-
-void loadInputEdges(std::vector<std::tuple<int, int, int>>& edgesCTU, std::vector<std::vector<int>>& cableTypesCTU, const int& M) {
-    for (int i = 0; i < M; i++) {
-        int n1, n2, type;
-        std::cin >> n1 >> n2 >> type;
-        edgesCTU.emplace_back(n1, n2, type);
-        cableTypesCTU[n1][n2] = type;
-        cableTypesCTU[n2][n1] = type;
-    }
-}
-
-void loadCompSchemesEdges(std::vector<std::vector<std::tuple<int, int, int>>>& compSchemes, const int& S) {
-    for(int i = 0; i < S; i++) {
-        int D;
-        std::cin >> D;
-        for (int j = 0; j < D; j++) {
-            int n1, n2, type;
-            std::cin >> n1 >> n2 >> type;
-            compSchemes[i].emplace_back(n1, n2, type);
+ 
+class Graph {
+    private:
+        int N;
+        int M;
+        std::vector<std::tuple<int, int, int>> edges;
+        std::vector<std::vector<int>> cableTypesMatrix;
+ 
+    public:
+        Graph(int N, int M) : N(N), M(M) {
+            // Initialize the matrix with N x N dimensions
+            cableTypesMatrix.resize(N, std::vector<int>(N, 0));
         }
-    }
-}
-
-void printEdges(const std::vector<std::tuple<int, int, int>>& edges) {
-    for (size_t i = 0; i < edges.size(); i++) {
-        int n1, n2, cost;
-        std::tie(n1, n2, cost) = edges[i];
-        std::cout << "(" << n1 << ", " << n2 << ", " << cost << ")" << std::endl;
-    }
-}
-
-void printCableTypesCTU(const std::vector<std::vector<int>>& cableTypesCTU) {
-    for(int i = 0; i < cableTypesCTU.size(); i++) {
-        for(int j = 0; j < cableTypesCTU[i].size(); j++) {
-            std::cout << cableTypesCTU[i][j] << " ";
+ 
+        void loadInputEdges() {
+            for (int i = 0; i < M; i++) {
+                int n1, n2, type;
+                std::cin >> n1 >> n2 >> type;
+                edges.emplace_back(n1, n2, type);
+                cableTypesMatrix[n1][n2] = type;
+                cableTypesMatrix[n2][n1] = type;
+            }         
+        }
+ 
+        void printEdges() {
+            for (size_t i = 0; i < edges.size(); i++) {
+                int n1, n2, cost;
+                std::tie(n1, n2, cost) = edges[i];
+                std::cout << "(" << n1 << ", " << n2 << ", " << cost << ")" << std::endl;
+            }
+        }
+ 
+        void printCableTypesMatrix() {
+            for(int i = 0; i < cableTypesMatrix.size(); i++) {
+                for(int j = 0; j < cableTypesMatrix[i].size(); j++) {
+                    std::cout << cableTypesMatrix[i][j] << " ";
+                }
+                std::cout << std::endl;
+            }
+        }
+ 
+        // Getter for entire matrix
+        const std::vector<std::vector<int>>& getCableTypesMatrix() const {
+            return cableTypesMatrix;
+        }
+ 
+        // Getter for single element
+        int getCableType(int n1, int n2) const {
+            return cableTypesMatrix[n1][n2];
+        }
+ 
+        void setCableTypesMatrix(const std::vector<std::vector<int>>& matrix) {
+            cableTypesMatrix = matrix;
+        }
+};
+ 
+void printMatrix(const std::vector<std::vector<int>>& matrix) {
+    for(int i = 0; i < matrix.size(); i++) {
+        for(int j = 0; j < matrix[i].size(); j++) {
+            std::cout << matrix[i][j] << " ";
         }
         std::cout << std::endl;
     }
 }
-
-void createAdjacencyList(
-    const std::vector<std::tuple<int, int, int>>& edges,
-    std::vector<std::vector<std::tuple<int, int>>>& adjacencyList
+ 
+bool checkPossibleMapping(
+    int node,
+    const std::vector<int>& mapping,
+    const Graph& graphCTU,
+    const Graph& graphComp
 ) {
-    for (size_t i = 0; i < edges.size(); i++) {
-        int n1, n2, type;
-        std::tie(n1, n2, type) = edges[i];
-        adjacencyList[n1].emplace_back(n2, type);
-        adjacencyList[n2].emplace_back(n1, type);
-    }
-}
-
-void printAdjacencyList(const std::vector<std::vector<std::tuple<int, int>>>& adjacencyList) {
-    for (size_t i = 0; i < adjacencyList.size(); i++) {
-        std::cout << i << ": ";
-        for (size_t j = 0; j < adjacencyList[i].size(); j++) {
-            std::tuple<int, int> element = adjacencyList[i][j];
-            std::cout << "(" << std::get<0>(element) << ", " << std::get<1>(element) << ") ";
-        }
-        std::cout << "\n";
-    }
-}
-
-bool checkPossibleMapping(int node, int candidate, std::vector<std::vector<std::tuple<int, int>>> compAdjList, std::vector<std::vector<int>> cableTypesCTU, std::vector<int> assigned) {
-    int res = true;
-    
-    // [(neighbour1, cable), (neighbour2, cable), (neighbour3, cable), ...]
-    std::vector<std::tuple<int, int>> nodeNeighbours = compAdjList[node];
-    for(int i = 0; i < nodeNeighbours.size(); i++) {
-        std::tuple<int, int> neighbourElement = nodeNeighbours[i];
-        int neighbour = std::get<0>(neighbourElement);
-        int cableType = std::get<1>(neighbourElement);
-        int neighbourMapped = assigned[neighbour];
-
-        if(neighbourMapped == -1) {
-            // Neighbour was not assigned yet, continue
-            continue;
-        }
-
-        int mappedCableType = cableTypesCTU[candidate][neighbourMapped];
-        if(mappedCableType != cableType) {
-            // The mapped node suits the cable condition
-            res = false;
-        }
-    }
-
-    return res;
-}
-
-bool checkScheme(int depth, int N, std::vector<std::vector<int>> candidates, std::vector<std::vector<std::tuple<int, int>>> compAdjList, std::vector<std::vector<int>> cableTypesCTU, std::vector<int> assigned, std::vector<bool> used) {
-    std::cout << "Running for node: " << depth << std::endl;
-    
-    if(depth == N) {
-        // std::cout << "Super" << std::endl;
+    if(node == 0) {
+        // We mapped first node but we cannot check with no other nodes
         return true;
     }
-    
-    bool res = false;
-    int node = depth;
-    std::vector<int> candidatesForNode = candidates[node];
-    
-    for(int i = 0; i < candidatesForNode.size(); i++) {
-        std::cout << "Running for node: " << depth << " I: " << i << std::endl;
-        int candidate = candidatesForNode[i];
-        if(used[candidate] == true) {
-            // If candidate is already assign continue
+ 
+    const std::vector<std::vector<int>>& cableTypesMatrixCTU = graphCTU.getCableTypesMatrix();
+    const std::vector<std::vector<int>>& cableTypesMatrixComp = graphComp.getCableTypesMatrix();
+ 
+    for(int i = (node-1); i >= 0; i--) {
+        int nodeForChecking = i;
+        int mappedNode = mapping[node];
+        int mappedNodeForChecking = mapping[nodeForChecking];
+        int typeComp = cableTypesMatrixComp[node][nodeForChecking];
+        int typeCTU = cableTypesMatrixCTU[mappedNode][mappedNodeForChecking]; 
+        if(typeComp == typeCTU) {
+            // Cables are equal and continue to check outher node
             continue;
-        }
-
-        bool isMapPossible = checkPossibleMapping(node, candidate, compAdjList, cableTypesCTU, assigned);
-
-        if(isMapPossible) {
-            // std::cout << "Map is possible" << std::endl;
-            std::cout << "Node before assign: " << depth << std::endl;
-            for(int k = 0; k < assigned.size(); k++) {
-                std::cout << assigned[k] << " ";
+        } else if(typeCTU != 0) {
+            if(typeComp == -1) {
+                // Cables are equal and continue to check outher node
+                continue;
             }
-            std::cout << std::endl;
-            // Assigned mapping to node
-            assigned[node] = candidate;
-            used[candidate] = true;
-            // dive in
-            std::cout << "Node after assign: " << depth << std::endl;
-            for(int k = 0; k < assigned.size(); k++) {
-                std::cout << assigned[k] << " ";
-            }
-            std::cout << std::endl;
-            std::cout << std::endl;
-            
-            res = checkScheme(depth+1, N, candidates, compAdjList, cableTypesCTU, assigned, used);
-            if(res == true) {
-                return true;
-            }
-            assigned[node] = -1;
-            used[candidate] = false;
+            return false;
+        } else {
+            return false;
         }
     }
-
+    return true;
+}
+ 
+bool checkIsomorphism(int node, int N, std::vector<int> mapping, std::vector<bool> used, Graph graphCTU, Graph graphComp) {
+    if(node == N) {
+        // for(int i = 0; i < mapping.size(); i++) {
+        //     std::cout << mapping[i] << " ";
+        // }
+        return true;
+    }
+ 
+    bool res = false;
+ 
+    // std::cout << "Node to be mapped: " << node << std::endl; 
+ 
+    for(int candidate = 0; candidate < N; candidate++) {
+        if(used[candidate]) {
+            continue;
+        }
+ 
+        mapping[node] = candidate;
+        used[candidate] = true;
+        // Fill used
+        bool possibleMapping = checkPossibleMapping(node, mapping, graphCTU, graphComp);
+        if(possibleMapping) {
+            res = checkIsomorphism(node+1, N, mapping, used, graphCTU, graphComp);
+            if(res) {
+                // Break if response from checkIsomorphism return true
+                break;
+                // return true;
+            }
+        }
+        mapping[node] = 0;
+        used[candidate] = false;
+    }
+ 
     return res;
 }
-
+ 
 /* MAIN */
 int main() {
     // N - number of servers
     // M - number of connectios between servers
     // S - number of company schemes
-    int N, M, S;
-
+    // M_comp - number of connection between servers in company scheme
+    int N, M, S, M_comp;
+ 
     // Load first line of input data
     std::cin >> N >> M;
-
-    // Define vector for storing edges
-    std::vector<std::tuple<int, int, int>> edgesCTU;
-    std::vector<std::vector<int>> cableTypesCTU(N, std::vector<int>(N, 0));
-    edgesCTU.reserve(M);
-    
-    // Load edges from input to the vector
-    loadInputEdges(edgesCTU, cableTypesCTU, M);
-    // printEdges(edgesCTU);
-    // printCableTypesCTU(cableTypesCTU);
-    
+     
+    Graph graphCTU(N, M);
+    graphCTU.loadInputEdges();
+ 
+    std::vector<std::vector<int>> cableTypesCTU = graphCTU.getCableTypesMatrix();
+     
+    for(int i = 0; i < cableTypesCTU.size(); i++) {
+        for(int j = 0; j < cableTypesCTU[i].size(); j++) {
+            if(cableTypesCTU[i][j] != 0) {
+                cableTypesCTU[i][j] = -1;
+            }
+        }
+    }
+ 
     // Load number of company schemes
     std::cin >> S;
-    std::vector<std::vector<std::tuple<int, int, int>>> compSchemes;
-    compSchemes.reserve(S);
-
-    // Load edges of all companies schemes
-    loadCompSchemesEdges(compSchemes, S);
-    
-    // for(int i = 0; i < S; i++) {
-    //     printEdges(compSchemes[i]);
-    //     std::cout << std::endl;
-    // }
-
-    std::vector<std::vector<std::tuple<int, int>>> compAdjList(compSchemes[0].size() + 1);
-    // printEdges(compSchemes[0]);
-    createAdjacencyList(compSchemes[3], compAdjList);
-
-    printAdjacencyList(compAdjList);
-    
-    std::vector<std::vector<int>> candidates{
-        {0, 1, 2, 3},
-        {0, 1, 2, 3},
-        {0, 1, 2, 3},
-        {0, 1, 2, 3}
-    };
-
-    int node = 0;
-    std::vector<int> candidatesForNode = candidates[node];
-    std::vector<int> assigned(N, -1);
-    std::vector<bool> used(N, false);
-
-    bool res = checkScheme(0, N, candidates, compAdjList, cableTypesCTU, assigned, used);
-
-    if(res == true) {
-        std::cout << "True" << std::endl;
-    } else {
-        std::cout << "False" << std::endl;
+     
+    bool first = true;
+    for(int i = 0; i < S; i++) {
+        std::cin >> M_comp;
+        Graph graphComp(N, M_comp);
+        graphComp.setCableTypesMatrix(cableTypesCTU);
+        graphComp.loadInputEdges();
+        std::vector<int> mapping(N);
+        std::vector<bool> used(N, false);
+        bool res = checkIsomorphism(0, N, mapping, used, graphCTU, graphComp);
+        if(res) {
+            if(!first) {
+                std::cout << " ";
+            }
+            std::cout << i+1;
+            first = false;
+        }
     }
-
-    // for(int i = 0; i < candidatesForNode.size(); i++) {
-    //     int candidate = candidatesForNode[i];
-    //     bool isMapPossible = checkPossibleMapping(node, candidate, compAdjList, cableTypesCTU, assigned);
-
-    //     if(isMapPossible) {
-    //         // Assigned mapping to node
-    //         assigned[node] = candidate;
-    //         // dive in
-    //     }
-    // }
-    
+     
+    std::cout << std::endl;
+ 
     return 0;
 }
