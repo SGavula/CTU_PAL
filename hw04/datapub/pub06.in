@@ -1,0 +1,61 @@
+60 8
+0 - a  b  c  d  e  f 38 g  h 22
+1 - a  b  c  d  e  f 7 29 58 g  h 20
+2 - a  b  c  d 4 50 e  f  g  h 
+3 - a  b  c  d 19 e  f  g  h 
+4 - a 1 b  c 36 d  e  f  g  h 
+5 - a  b  c 11 d  e  f  g  h 
+6 - a  b  c  d  e 15 f  g  h 
+7 - a 10 b  c  d  e  f 47 g  h 
+8 - a 51 b  c  d 43 e 25 f  g  h 
+9 - a  b  c 43 d  e  f  g  h 
+10 - a  b  c  d  e 14 31 f  g  h 
+11 - a  b  c  d 41 e  f  g  h 
+12 - a  b 6 c  d 0 13 e  f  g  h 
+13 - a 43 b  c  d  e 24 27 f  g  h 
+14 - a  b  c  d  e  f 16 g  h 
+15 - a  b 1 c  d  e  f  g  h 
+16 - a  b  c  d  e  f  g 6 h 
+17 - a  b 4 c  d  e  f  g 57 h 
+18 - a 8 b  c  d  e  f  g 30 36 h 
+19 - a  b  c  d  e  f  g 37 h 
+20 - a  b  c  d  e  f 8 g  h 
+21 - a  b  c  d  e  f  g 30 h 25
+22 - a  b  c  d 21 39 e  f  g 39 h 
+23 - a  b  c  d  e 56 f  g  h 
+24 - a  b  c  d  e  f 46 g 59 h 1
+25 - a  b  c  d 42 56 e  f  g  h 
+26 - a  b  c  d  e  f 33 g  h 
+27 - a 44 b  c  d  e  f  g  h 
+28 - a  b  c  d 23 54 e  f  g  h 53
+29 - a  b  c  d 12 e  f 45 g  h 
+30 - a  b  c  d 32 e  f  g 19 23 h 
+31 - a  b  c 5 d  e  f  g  h 11
+32 - a  b  c  d 57 e  f 8 g  h 
+33 - a  b  c  d  e  f  g 28 h 
+34 - a  b  c 40 d  e  f 16 g  h 
+35 - a 1 4 b  c  d 30 59 e  f  g  h 
+36 - a  b  c  d 20 e  f  g  h 
+37 - a  b  c  d 8 e  f  g  h 21
+38 - a  b  c 14 d  e 30 f  g  h 45
+39 - a  b  c  d  e  f 2 g  h 
+40 F a  b  c  d  e  f 54 g  h 10
+41 F a 3 b  c  d  e 15 f  g  h 
+42 - a 18 b  c  d  e  f 9 g  h 10
+43 - a  b  c  d  e  f 38 g 39 h 41
+44 - a  b  c  d  e 35 f  g  h 47
+45 - a  b 29 c  d 4 e  f  g  h 
+46 F a  b  c  d  e  f  g 48 h 58
+47 - a 48 53 b  c 11 d  e  f  g  h 
+48 - a  b  c  d 56 e  f  g  h 34
+49 - a  b  c  d  e  f 55 g  h 
+50 - a  b  c  d  e 24 f  g  h 
+51 - a  b 26 c  d  e  f  g  h 
+52 F a  b  c 10 44 d  e  f 14 g  h 
+53 - a  b  c  d 32 e 53 f  g  h 18
+54 F a  b  c  d  e  f  g 52 h 
+55 - a 48 b  c  d  e  f  g 1 53 h 
+56 - a  b  c  d  e  f  g 1 h 13
+57 - a 51 b  c  d 49 e  f  g  h 
+58 - a  b  c  d 17 e  f  g  h 
+59 - a 38 b  c  d  e  f  g 13 h 32 57

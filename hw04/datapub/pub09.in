@@ -1,0 +1,301 @@
+300 20
+0 - a 249 b  c  d 80 e  f  g  h  i  j 37 k  l  m  n  o  p  q 74 r  s  t 
+1 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o 191 p  q  r  s  t 
+2 - a  b  c  d  e  f  g  h  i 63 j  k  l  m  n  o  p  q  r  s  t 
+3 - a  b  c  d  e  f  g  h  i 149 j  k  l  m  n  o  p 219 q 231 r  s  t 
+4 - a  b  c  d  e  f  g  h 290 i  j  k  l  m  n  o  p  q  r  s 82 148 t 
+5 - a  b  c  d  e  f  g  h 189 i  j  k  l  m  n  o 103 p  q  r  s  t 207
+6 - a  b  c  d 178 e  f  g  h  i  j  k 81 l  m  n  o  p  q  r  s 162 189 t 
+7 - a  b  c  d 233 e  f  g  h  i  j 120 k  l  m  n  o  p  q  r  s  t 
+8 - a  b  c  d  e  f  g  h  i  j  k  l  m 283 n 87 o  p  q  r  s  t 
+9 - a  b  c 195 d  e  f  g  h  i  j  k  l  m  n  o  p 167 q  r  s  t 
+10 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 50
+11 - a  b  c  d  e 104 f  g  h  i  j  k  l  m  n  o 110 p  q  r  s  t 192
+12 - a  b 205 c  d  e  f  g 173 h  i  j  k  l  m  n  o  p  q 76 r  s  t 
+13 - a  b  c  d  e  f  g 241 h  i  j  k 64 l 70 m  n  o  p  q  r  s  t 
+14 - a  b 260 c  d  e  f  g  h  i 158 j  k  l  m  n 134 286 o  p  q  r  s  t 
+15 F a  b  c  d  e  f  g  h  i 73 j  k  l  m  n  o  p  q  r  s  t 
+16 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q 198 r  s  t 
+17 - a  b  c  d  e  f  g  h  i  j  k  l 180 m  n  o  p 231 q  r  s  t 
+18 - a  b  c  d  e  f  g  h  i  j  k  l  m 40 109 n  o  p  q  r  s  t 140
+19 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o 155 p  q  r  s  t 
+20 - a  b 93 c  d  e  f  g  h  i  j  k  l  m  n 16 o  p  q  r  s  t 
+21 - a  b 107 c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+22 - a  b 244 c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 86
+23 - a  b  c 26 d  e  f  g  h  i  j 18 k  l  m  n 101 o  p  q  r  s  t 
+24 - a 61 b  c  d 185 e 170 f  g  h  i  j  k  l  m  n  o 94 p  q  r  s  t 
+25 - a  b  c  d  e 3 f 247 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+26 - a  b  c  d  e  f  g  h 89 i  j 273 k  l  m  n  o 18 p  q  r  s  t 
+27 F a  b  c  d  e  f  g 126 h  i  j  k 265 l  m  n  o  p  q  r  s  t 
+28 - a  b  c  d  e  f  g  h  i  j  k 248 l  m  n  o  p  q  r  s  t 
+29 - a  b  c  d  e  f  g  h 55 i  j  k  l  m 162 n  o  p  q 217 r  s  t 
+30 - a  b  c  d 82 e 239 f  g 285 h  i  j  k  l  m  n  o  p  q  r  s  t 
+31 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o 257 p  q  r  s  t 
+32 - a 28 b  c  d 20 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 176
+33 - a  b  c  d  e  f 111 g  h  i  j  k  l 293 m  n  o  p  q  r  s  t 
+34 - a  b  c 181 d  e  f  g 150 h  i  j  k  l  m  n  o  p  q 32 85 r  s  t 
+35 - a  b 222 c  d  e  f 252 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+36 - a  b  c  d  e  f  g  h  i  j  k  l  m  n 203 o  p  q 78 r  s  t 
+37 - a  b  c  d  e  f  g  h  i  j  k  l  m 265 n  o  p  q  r  s 209 t 
+38 - a  b 153 c  d  e  f  g 269 h  i 88 j  k  l 23 m 69 n  o  p 134 q  r  s 176 t 
+39 - a  b  c  d  e  f 148 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+40 - a  b  c  d  e  f 69 g 35 h  i  j  k  l  m  n  o  p  q  r 122 s  t 
+41 - a  b  c  d  e  f 118 g  h  i  j  k  l  m  n  o  p  q  r  s  t 166
+42 - a  b  c  d  e  f  g  h  i  j  k  l  m 141 n  o  p  q  r  s  t 28
+43 - a  b  c  d  e  f  g  h  i  j  k  l  m 125 n  o  p  q  r  s  t 
+44 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o 292 p 183 q  r  s  t 
+45 - a  b  c  d  e 268 f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 122
+46 - a  b 141 c  d  e 65 f  g  h  i  j  k 50 l  m 175 n  o  p  q  r  s  t 
+47 - a  b  c  d 100 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 292
+48 - a  b  c  d  e  f  g  h  i  j  k  l 62 104 m  n  o  p  q  r  s  t 
+49 - a  b 229 c  d  e  f  g  h  i 120 j  k  l  m  n  o  p  q  r  s  t 107
+50 - a 51 b  c  d  e  f  g  h  i  j  k 145 l  m  n  o  p  q  r  s  t 
+51 - a 110 b  c  d  e  f  g  h  i 269 j  k  l  m  n  o  p  q  r  s  t 
+52 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r 45 s  t 
+53 - a  b  c 289 d  e  f  g  h  i  j  k  l  m  n 105 o  p  q  r  s  t 
+54 - a  b  c  d  e  f  g 233 h  i  j  k  l  m  n  o  p  q 147 r  s  t 
+55 - a  b  c  d  e 49 f  g  h 63 i  j  k  l  m  n  o  p  q  r  s  t 
+56 - a  b  c  d  e  f 235 g  h  i  j  k  l  m 181 n  o  p  q  r  s  t 
+57 - a  b  c 174 d  e  f  g  h  i  j  k  l  m  n  o  p  q 126 r  s  t 
+58 - a  b  c  d 297 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+59 - a 115 b  c  d  e  f  g  h  i 108 j  k  l  m  n  o  p  q  r 241 s  t 
+60 - a  b  c  d 173 e  f  g  h  i  j  k  l  m  n  o  p 280 q  r  s  t 
+61 - a  b  c  d  e  f  g  h  i 33 j  k  l  m  n  o  p  q  r  s  t 
+62 - a  b  c  d  e  f  g  h 36 i  j  k 142 l  m  n  o  p  q  r  s  t 
+63 - a 144 b  c  d  e  f  g 11 h  i 89 j  k  l  m  n  o  p  q  r  s  t 171
+64 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o 185 p 99 q  r  s  t 
+65 - a  b 146 c  d  e  f 185 g  h  i  j  k  l  m  n  o 205 p  q  r  s  t 
+66 - a  b  c 23 d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+67 - a  b  c 57 d  e  f  g  h 66 i  j  k  l  m  n  o  p  q  r  s  t 
+68 - a  b  c  d  e  f  g  h  i  j 142 k  l 266 m  n  o 210 p  q  r  s  t 
+69 - a  b  c  d  e  f 128 g  h  i 121 j  k  l  m  n  o  p  q  r  s  t 
+70 - a  b  c  d 189 e  f  g  h  i  j  k  l  m  n  o  p  q 25 r  s  t 
+71 - a  b  c  d 98 e  f  g  h  i  j  k  l  m  n  o 285 p  q  r  s  t 
+72 - a  b  c  d  e  f  g  h  i  j  k  l 153 m  n  o  p  q  r  s  t 
+73 - a  b 51 c  d  e  f  g 71 h  i  j  k 14 l  m  n  o  p  q  r  s  t 
+74 - a  b  c  d 124 e 122 f  g  h  i  j  k  l  m  n  o 75 p  q  r  s  t 
+75 - a  b  c  d  e  f  g  h 224 i  j  k  l 251 m 105 n  o  p 151 q  r  s  t 
+76 - a  b  c  d  e  f 94 g  h  i  j  k  l  m  n  o 139 p  q  r  s  t 
+77 - a  b  c  d 190 e  f  g  h  i  j  k  l  m 231 n  o  p 197 q  r  s  t 
+78 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p 154 q  r  s  t 
+79 - a  b  c  d 97 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+80 - a  b 283 c  d  e  f  g  h 287 i 274 j  k 194 l  m  n  o  p  q  r  s  t 
+81 - a  b  c 259 d  e  f 1 92 g  h  i  j  k  l 92 m  n  o 9 p  q 201 r  s  t 
+82 - a  b 237 c 218 d 1 e  f  g  h  i  j  k  l  m  n  o  p 106 q  r  s  t 
+83 - a  b  c  d  e  f  g  h 13 i  j  k  l  m  n  o  p  q  r  s  t 
+84 - a  b  c  d  e 220 f  g  h  i  j  k  l  m  n 14 o  p  q  r  s  t 
+85 - a 106 b  c  d 133 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+86 F a  b  c  d  e  f 213 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+87 - a  b  c  d  e  f 201 g  h  i  j  k 214 l  m  n  o 33 286 p 237 q 251 r  s  t 
+88 - a  b 138 c  d  e  f  g  h  i  j 218 k  l  m  n  o  p  q  r  s  t 
+89 - a  b  c 77 d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+90 - a  b  c  d  e  f  g  h  i  j 132 k  l  m  n  o  p  q  r 188 s  t 160
+91 - a 184 b  c  d  e  f  g  h 25 i  j  k  l  m  n  o  p  q  r  s  t 
+92 - a  b  c  d  e  f  g 161 h 108 i  j  k  l  m  n  o  p 230 q  r  s  t 
+93 - a  b  c  d  e 204 f  g  h  i  j  k 284 l  m  n  o  p  q  r  s  t 
+94 - a  b  c  d 124 e  f  g  h  i  j  k  l  m  n  o 158 p  q 242 r  s  t 
+95 - a  b 249 c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 67 73
+96 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s 0 t 
+97 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s 266 t 187
+98 - a  b  c  d  e  f 259 g 171 h  i  j  k  l  m  n  o  p  q  r  s  t 
+99 - a  b  c  d  e  f  g  h  i  j  k 52 l  m  n  o  p  q  r 148 s  t 
+100 - a  b 192 c  d  e  f  g  h  i  j  k  l  m  n  o 228 p  q  r  s  t 
+101 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q 21 r 134 s  t 
+102 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s 8 t 
+103 - a  b  c  d  e  f 64 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+104 - a  b  c  d  e  f  g 234 h  i  j  k  l  m 27 n 75 288 o  p  q  r 108 s  t 
+105 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o 240 p  q  r  s  t 
+106 - a  b  c  d  e  f 295 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+107 - a  b  c  d  e  f  g  h  i  j  k 7 l  m  n  o  p  q  r  s 23 t 
+108 - a  b 12 c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+109 - a  b 121 c  d  e  f  g 295 h  i 79 j  k  l 105 m  n  o 208 p  q  r  s  t 
+110 - a  b 226 c  d  e  f  g  h 180 i  j  k  l  m  n  o  p  q  r  s  t 
+111 - a  b  c  d  e  f  g  h  i  j  k  l 158 m  n  o  p  q  r  s  t 
+112 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r 137 s  t 275
+113 - a 155 b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r 17 s  t 
+114 - a  b  c  d  e  f  g  h  i  j  k  l  m 154 230 n  o 30 p  q  r  s  t 
+115 - a 260 b  c  d  e  f 156 g  h  i  j  k  l 260 m  n  o  p 211 q  r  s  t 
+116 - a  b  c  d  e  f  g  h  i 221 j 278 k  l  m  n  o  p  q  r  s  t 
+117 - a  b  c  d 195 e  f  g  h 42 i  j  k  l  m 94 n  o  p  q  r  s  t 
+118 - a  b  c  d  e  f  g  h 142 i  j  k  l  m 236 n  o  p  q 149 r 252 s  t 
+119 - a  b  c  d  e  f  g 87 h  i  j  k  l  m  n  o 27 p 268 q  r  s  t 
+120 - a 81 b  c  d 133 e  f  g  h  i  j  k  l  m  n  o 90 p  q  r  s  t 
+121 - a  b  c  d  e  f  g  h 34 i 65 j  k  l  m  n  o  p  q  r 115 s  t 
+122 - a  b  c  d 298 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+123 - a  b  c  d  e  f  g  h  i  j  k  l 190 m  n  o 19 p  q  r  s  t 
+124 - a  b  c  d  e  f  g  h  i 168 j  k  l  m  n  o  p  q  r  s  t 
+125 - a  b  c  d 168 e  f  g  h 84 i  j  k 258 l 132 m  n  o  p  q  r  s  t 
+126 - a  b  c  d  e  f  g  h  i  j 193 k  l  m  n  o  p  q  r 114 s  t 
+127 - a  b  c  d  e  f 123 172 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+128 - a  b  c 94 d  e  f  g  h  i 233 j  k  l  m  n  o  p  q  r  s  t 
+129 - a  b  c  d  e  f  g 203 h  i  j 74 k  l  m  n  o  p 164 q  r  s  t 
+130 - a 246 b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+131 - a  b  c  d  e 110 f  g  h 116 i 184 j  k  l  m  n  o  p  q  r  s  t 
+132 - a  b  c  d  e  f  g  h  i 254 j  k  l  m  n 175 o  p  q  r  s  t 
+133 - a  b  c  d  e 228 f  g  h  i  j 27 k  l  m  n  o  p  q  r  s 267 t 
+134 - a  b  c 231 d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 4
+135 - a  b  c  d  e 184 f  g  h  i  j  k 264 l  m 180 n  o  p  q  r  s  t 
+136 - a  b  c  d  e  f 96 g  h  i  j  k  l  m 50 232 n  o  p  q  r  s  t 43
+137 - a  b  c  d  e  f  g  h  i  j  k  l  m 115 n  o  p  q  r 291 s  t 
+138 - a 44 b  c  d  e  f 43 g  h  i  j  k  l  m  n  o  p  q 274 r  s  t 205
+139 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p 280 q 177 r  s  t 
+140 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s 119 205 t 
+141 - a  b  c  d 214 e  f  g  h  i  j  k  l  m  n  o 234 p  q 181 r 294 s  t 
+142 - a 253 b  c  d  e 142 f  g  h  i  j  k  l  m  n  o  p  q 43 r  s  t 
+143 - a  b 102 c  d  e  f 231 g  h  i  j  k  l  m  n  o  p 11 q 79 r  s  t 
+144 - a  b  c  d  e  f  g  h  i  j  k  l  m 281 n  o  p  q  r  s  t 
+145 - a  b  c  d  e  f  g  h  i 37 219 j  k  l  m  n  o  p  q  r  s  t 
+146 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s 35 t 
+147 - a  b  c  d  e  f  g 29 h  i  j 5 k  l  m  n  o  p  q  r  s  t 
+148 - a  b  c  d 236 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+149 - a  b  c  d  e  f  g  h  i 92 j  k  l  m  n  o  p  q  r  s  t 
+150 - a  b  c  d  e  f  g  h 296 i  j  k  l  m  n 250 o  p  q  r  s  t 
+151 - a  b 65 c  d  e  f  g  h  i 50 144 j 163 243 k  l  m  n  o  p  q  r  s  t 
+152 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p 209 q  r  s  t 
+153 - a  b  c  d  e  f  g  h  i  j  k 149 l  m  n  o  p  q  r  s  t 110
+154 - a  b 262 c  d  e  f  g  h  i  j  k  l 83 94 m  n  o  p  q  r  s  t 
+155 - a  b  c  d  e  f  g  h  i  j  k  l 3 m  n  o  p  q  r 269 s  t 
+156 - a 47 b  c  d 247 e  f 131 g  h  i  j  k  l  m  n  o  p 241 q  r  s  t 
+157 - a  b  c  d  e  f  g  h 49 i 266 j  k  l  m 120 n  o  p  q 96 r  s  t 
+158 - a  b  c  d  e  f  g  h  i  j  k  l 100 m  n  o 212 p  q  r  s 58 t 265
+159 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p 54 q  r  s  t 
+160 - a  b  c  d  e  f  g  h  i  j  k 245 l  m  n  o 208 p  q  r  s  t 
+161 - a  b 136 c  d  e 194 273 f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+162 - a  b  c 255 d  e  f 42 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+163 - a  b  c 104 d  e  f  g 230 h 285 i  j  k  l  m 66 n  o  p  q  r  s  t 201
+164 - a  b  c  d  e  f  g  h  i 89 j  k  l 219 m  n  o  p  q 195 r  s  t 
+165 - a 204 b  c  d 274 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 255
+166 - a 260 b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+167 F a  b  c  d  e  f 128 g  h 123 i  j  k  l  m  n  o  p 267 q  r  s  t 
+168 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q 113 r 56 s  t 31
+169 - a  b 165 c  d  e  f  g  h  i  j  k  l  m  n  o  p 263 q  r  s  t 
+170 - a  b  c  d  e  f  g  h 148 i  j  k 179 l  m 256 n 200 o  p  q  r  s  t 
+171 - a  b  c  d  e  f  g  h  i  j  k  l  m 127 n  o  p  q  r  s  t 
+172 - a  b 276 c  d  e  f  g  h  i  j 137 k  l  m 51 n  o  p  q  r  s  t 
+173 - a  b  c  d 147 e  f  g  h  i  j  k  l  m  n  o  p 282 q  r  s  t 
+174 - a  b  c  d  e  f  g  h  i  j  k 276 l  m  n  o  p  q  r  s  t 
+175 - a  b 206 c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+176 - a  b  c  d  e 42 f  g  h  i  j 191 k  l  m  n  o  p  q  r  s  t 
+177 - a  b  c 225 d  e  f  g  h  i  j  k  l  m 151 n 188 o  p  q  r  s  t 
+178 - a  b  c 217 d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+179 - a  b  c  d 238 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+180 - a 177 b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 129
+181 - a  b  c  d  e  f  g  h  i  j  k 112 l  m  n  o  p  q  r  s  t 
+182 - a  b  c  d  e  f  g  h  i  j 218 k  l  m  n  o  p  q 11 r  s  t 
+183 - a 190 b  c 73 d  e  f  g  h  i 102 j  k  l  m  n  o  p  q  r  s  t 
+184 - a 219 b  c 143 d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+185 - a  b  c 266 d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+186 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q 214 r 195 s  t 
+187 - a  b  c  d  e  f 134 156 193 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+188 - a 1 17 b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 176
+189 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s 72 t 
+190 - a  b  c  d  e  f  g  h  i 294 j  k  l  m 175 n  o  p  q  r  s  t 
+191 - a  b  c  d 56 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+192 - a  b  c  d  e  f  g  h  i  j  k  l  m 34 287 n 268 o 3 239 p  q  r  s  t 119
+193 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 2
+194 - a  b  c  d  e  f 183 g  h  i 56 j  k  l  m  n 227 o  p  q 169 r  s  t 
+195 - a  b  c  d  e  f  g 26 292 h  i  j  k  l  m  n  o  p  q  r  s  t 107
+196 - a  b  c  d  e  f  g  h  i 71 j  k  l  m  n  o  p  q  r  s  t 
+197 - a  b  c  d  e 289 f  g  h  i  j  k  l  m  n  o  p 200 q  r 273 s  t 
+198 - a 292 b  c  d 221 e  f  g  h  i  j  k 103 l  m 13 n  o  p  q  r  s  t 
+199 - a 156 b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+200 - a  b  c 119 d  e  f  g  h  i 61 284 j 122 k  l  m  n  o  p  q  r  s  t 
+201 - a  b  c  d  e  f  g 289 h  i  j  k  l  m  n  o  p  q  r  s  t 
+202 - a  b  c  d  e  f  g  h 244 i  j  k 10 l  m  n  o  p  q  r  s  t 
+203 - a  b  c  d  e  f  g 65 224 h  i  j  k  l  m  n  o  p  q  r  s 172 t 
+204 - a  b 37 c  d  e  f 251 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+205 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 68
+206 - a 183 b 276 c  d  e 31 f  g  h  i  j  k 160 l  m  n  o  p  q  r  s  t 
+207 - a  b  c  d  e  f  g 182 h  i  j  k  l 22 m  n  o  p  q  r  s  t 
+208 - a  b  c  d  e  f  g  h  i  j  k 261 l  m  n  o  p  q  r 189 s  t 
+209 - a  b  c  d  e  f  g  h 92 i 260 j  k  l  m  n  o  p  q 216 r  s  t 
+210 - a  b  c  d  e 32 f  g 149 h  i  j  k  l  m  n  o  p  q  r  s  t 
+211 - a 205 b  c  d  e  f  g  h  i  j  k  l  m  n  o  p 270 q  r  s  t 
+212 - a 165 b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+213 F a  b  c  d  e  f  g  h  i  j  k  l 113 m  n  o  p  q  r  s  t 
+214 - a  b 134 c  d 6 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+215 - a  b  c  d  e  f  g  h  i  j 249 k  l  m  n  o  p 99 q  r  s  t 
+216 - a 150 b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+217 - a 264 b  c  d  e  f  g  h  i  j  k 278 l  m  n  o  p  q  r  s  t 
+218 - a  b  c  d  e  f  g  h  i  j  k  l 224 m  n  o  p  q  r  s  t 
+219 - a  b  c  d  e  f 144 147 g  h  i  j  k 274 l  m  n  o  p 168 q  r 134 s  t 
+220 - a  b  c  d  e  f  g  h  i  j 217 k  l  m 133 178 n  o  p  q  r  s  t 
+221 - a  b  c  d  e  f  g  h 24 i  j  k  l  m  n  o 135 p  q  r 24 s  t 
+222 - a  b  c  d  e 272 f  g  h  i  j  k  l  m  n  o 96 p  q  r  s  t 
+223 - a  b 179 c  d  e  f  g  h  i  j  k  l 69 m  n  o  p  q  r  s  t 
+224 - a  b 171 c  d  e  f  g  h 101 i  j  k 92 l  m  n  o  p  q  r  s  t 
+225 - a 127 b  c  d  e  f  g  h  i  j  k 117 211 l  m  n  o  p  q  r  s  t 
+226 - a  b  c  d  e  f  g  h 132 i  j 222 k  l  m  n  o  p  q  r  s  t 
+227 - a  b  c  d  e  f  g 220 h  i  j  k  l  m  n  o  p  q  r  s  t 
+228 - a  b  c  d  e  f  g  h 258 i  j  k  l 95 m  n  o  p  q  r  s  t 
+229 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s 34 t 
+230 - a  b  c  d  e  f 249 g  h  i  j  k  l 223 m  n  o  p  q  r  s  t 
+231 - a  b 38 c  d  e  f  g  h 199 i  j  k 66 l  m  n  o  p  q  r  s  t 
+232 - a  b  c  d 211 e  f  g  h  i  j 218 k  l  m  n  o  p  q  r  s  t 
+233 - a  b 181 c  d  e  f  g  h  i  j  k  l  m  n  o  p 227 q  r  s 273 t 226
+234 - a  b  c  d 207 e  f  g  h  i  j  k  l  m  n  o  p  q  r 157 s  t 
+235 - a  b  c  d  e  f 244 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+236 - a 20 b 118 c  d  e  f 39 g  h  i  j  k  l 30 m  n  o  p  q  r  s  t 
+237 - a  b  c  d  e  f  g  h  i  j 53 k  l 177 m  n  o  p  q  r  s 261 t 199
+238 - a  b  c  d  e  f  g  h  i  j  k  l  m 78 n 166 o  p  q  r  s  t 
+239 - a  b  c 164 d  e  f  g  h  i 173 j  k  l  m  n 85 o  p  q  r  s  t 
+240 - a  b  c  d  e  f  g  h  i  j  k  l 152 m  n  o  p  q 184 r  s  t 14
+241 - a  b  c  d  e  f  g  h  i 108 j 215 k  l  m  n  o  p  q  r  s  t 
+242 - a 182 b  c 242 d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+243 - a  b  c  d  e  f 55 g  h  i  j  k  l  m  n  o  p  q  r  s  t 299
+244 - a  b  c  d  e  f  g 277 h  i  j 72 k  l  m  n  o  p  q  r  s 216 t 
+245 - a  b  c  d  e  f  g 5 h  i  j  k  l  m  n 181 o  p  q  r  s  t 
+246 - a  b 36 c  d  e  f 291 g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+247 - a  b  c 36 d  e  f  g  h 47 i 84 159 j  k  l  m  n  o  p  q  r  s  t 
+248 F a  b  c  d  e  f  g  h  i  j 232 k  l  m  n  o  p  q  r 34 246 s 75 t 
+249 - a  b  c 115 123 d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+250 - a  b  c  d  e  f  g  h 122 i 221 j  k  l  m  n  o 230 p  q  r 230 s 16 t 
+251 - a  b  c  d  e  f  g  h  i  j  k  l  m 61 n  o  p  q  r  s  t 
+252 - a  b  c  d  e 120 f  g  h  i  j  k  l  m  n  o  p 88 q  r  s  t 
+253 - a  b  c 109 d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s 24 t 
+254 - a  b  c  d  e  f  g  h 168 i 271 j  k  l  m  n  o  p  q 234 r  s  t 
+255 - a 83 b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+256 - a 125 b  c  d  e 61 f 96 g  h  i  j 215 k  l 233 m  n  o  p  q  r  s  t 
+257 - a 80 b  c  d  e  f  g  h  i  j  k 105 l  m  n  o  p  q  r  s  t 
+258 - a  b 153 c  d  e  f  g 136 h 93 i  j  k  l  m  n  o  p  q  r  s  t 
+259 - a  b  c 87 d  e  f 142 g  h  i  j  k  l  m 119 n  o  p 61 q  r  s  t 
+260 - a 255 b  c  d  e  f  g  h  i  j  k  l  m  n  o 66 p  q  r  s  t 
+261 - a 67 b  c  d  e  f  g  h  i  j  k  l  m 279 n  o  p  q  r  s  t 
+262 - a  b 241 c  d  e  f  g  h  i 250 j  k  l  m  n  o 150 p  q  r  s  t 
+263 - a  b  c  d 40 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+264 - a  b  c  d  e 198 293 f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+265 - a  b  c  d  e 196 f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 183
+266 - a  b 140 160 c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+267 - a  b  c  d  e  f  g  h  i  j  k 41 l  m  n  o  p 296 q  r  s  t 
+268 - a  b  c  d  e  f 292 g  h  i  j  k  l  m  n  o  p  q  r  s 29 t 
+269 - a  b  c  d  e  f 237 g  h 296 i  j  k  l  m  n  o  p  q  r  s  t 288
+270 - a 247 b  c  d  e  f  g  h  i  j  k  l 131 m  n  o  p  q  r  s  t 
+271 - a  b  c  d  e  f  g 160 h  i  j  k  l  m  n  o  p  q  r 186 s  t 
+272 - a  b  c  d  e  f  g  h  i 202 j  k  l  m  n  o  p  q  r  s  t 
+273 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r 267 s  t 
+274 - a  b  c  d 290 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+275 - a 114 b  c  d  e  f  g  h  i 141 j  k  l  m  n  o  p  q  r  s  t 
+276 - a  b  c  d 55 e  f  g  h  i  j  k  l  m  n  o  p  q  r 38 s  t 
+277 - a  b  c  d  e  f  g 42 h  i  j  k  l  m  n  o  p 102 q 59 r  s  t 
+278 - a  b  c  d 60 e  f 77 g  h  i  j  k  l  m  n  o  p  q  r  s 112 t 
+279 - a  b  c  d  e  f 195 g 277 h 148 i 72 j 133 k  l  m  n  o  p  q  r  s  t 
+280 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r 46 s 17 t 
+281 - a  b  c  d  e  f  g  h  i 93 j  k  l  m  n  o  p  q  r  s  t 
+282 - a  b  c  d  e  f  g 130 h  i  j  k  l  m  n  o  p  q  r  s  t 
+283 - a  b  c  d  e 278 f  g  h  i  j  k  l  m  n  o  p  q  r  s 226 t 
+284 - a  b  c 119 d  e  f  g  h  i  j  k 270 l  m  n  o  p  q  r  s  t 
+285 - a  b  c 188 d  e 79 f  g  h  i 224 j  k  l  m  n 39 o  p  q  r  s  t 
+286 - a  b 127 c  d  e  f 208 g  h  i 135 j  k  l  m  n  o  p  q  r  s  t 
+287 - a  b  c  d  e  f  g 101 h  i  j  k  l  m  n  o  p  q  r 116 s  t 195
+288 - a  b  c  d  e  f  g  h  i 179 j  k  l 243 m  n  o  p  q  r  s  t 
+289 - a  b  c  d  e  f  g  h  i  j 170 k  l  m  n  o  p  q  r 160 s  t 
+290 - a  b  c 164 d  e  f  g  h  i  j  k  l 237 m  n  o  p  q  r  s  t 
+291 - a  b  c  d  e  f  g  h 58 i  j  k  l  m  n  o  p  q  r  s  t 
+292 - a  b  c 114 d  e  f  g  h  i  j  k  l  m 44 n  o  p  q  r  s  t 
+293 - a  b  c  d 97 e  f 258 g  h  i  j  k  l  m  n 92 o 204 p  q  r  s  t 
+294 - a  b  c  d  e  f  g  h  i  j 171 k  l  m 163 n  o  p  q  r  s  t 
+295 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 299
+296 - a  b  c  d 3 e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t 
+297 F a 15 b  c  d  e  f  g  h  i  j  k 34 l  m  n  o  p  q  r  s  t 
+298 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o 48 p  q  r  s  t 
+299 - a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r 91 s  t 
