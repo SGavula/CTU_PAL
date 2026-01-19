@@ -160,6 +160,7 @@ void loadInput(const size_t N, const size_t S, std::vector<State>& states, std::
                     break;
                 }
                 
+                // stoi --> converts string to integer
                 int nextInt = std::stoi(next);
                 nums.push_back(nextInt);
                 statesInversed[nextInt].pushToTransition(symbol, stateId);

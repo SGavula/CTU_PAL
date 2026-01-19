@@ -29,7 +29,9 @@ public:
     }
 
     void unionSets(int n1, int n2) {
+        // Find parent for node 1
         int n1Par = find(n1);
+        // Find parent for node 2
         int n2Par = find(n2);
 
         if (n1Par != n2Par) {
