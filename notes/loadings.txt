@@ -1,0 +1,35 @@
+1. NAČÍTAVANIE V RIADKU
+PRíklad vstupu: 1 0 1 0 0 0 1 1 2 0 2 2 2 0 0 2 2 2 2 2 2 2 2
+Klasicky cez std::cin >> premenná, v tomto prípade by to bolo pole
+
+
+2. NAČÍTAVANIE V STĹPCI
+6 2 7
+2 4 3
+3 1 5
+2 1 4
+5 3 5
+6 4 3
+3 4 4
+6 5 2
+
+Vo for cykly
+for each line:
+    std::cin >> prve_cislo_v_riadku
+    std::cin >> druhe_cislo_v_riadku
+    std::cin >> tretie_cislo_v_riadku
+alebo
+for each line:
+    std::cin >> prve_cislo_v_riadku, druhe_cislo_v_riadku, tretie_cislo_v_riadku
+
+
+3. NAČÍTAVANIE STRINGU
+Ak mám nejaký takýto input: ACACAGCAGCCGT
+Tak ho môžem načítať ako string:
+std::string test_string
+std::cin >> test_string
+A pristupujem potom k jednotlivým písmenkám ako v poli test_string[0] mi dá prvé písmenko
+
+
+4. CUSTOM NAČÍTAVANIE POMOCOU getline
+Tu to už musím vytvoriť zložitý algoritmus na načítavanie použitím getline funkcie a iných funkcií ako pri hw04.

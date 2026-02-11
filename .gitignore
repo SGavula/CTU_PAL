@@ -12,6 +12,6 @@
 *.gz
 
 # Ignore bin folder
-*/bin
+bin/
 
 */datapub/my-pub*.out

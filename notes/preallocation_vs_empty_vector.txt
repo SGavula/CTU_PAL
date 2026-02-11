@@ -1,0 +1,24 @@
+Option 1: Empty vector - use push_back
+
+std::vector<std::vector<int>> matrix;  // Size: 0x0 (empty)
+for(int i = 0; i < N; i++) {
+    std::vector<int> line;  // Empty row
+    for(int j = 0; j < N; j++) {
+        int value;
+        std::cin >> value;
+        line.push_back(value);  // Add to row
+    }
+    matrix.push_back(line);  // Add row to matrix
+}
+Option 2: Pre-allocated vector - use indexing
+
+std::vector<std::vector<int>> matrix(N, std::vector<int>(N));  // Size: NxN (all zeros)
+for(int i = 0; i < N; i++) {
+    for(int j = 0; j < N; j++) {
+        std::cin >> matrix[i][j];  // Direct assignment
+    }
+}
+Key difference:
+
+Empty vector: memory isn't allocated yet, so you must use push_back to add elements
+Pre-allocated vector: memory is already allocated with the right size, so you can directly assign using matrix[i][j]

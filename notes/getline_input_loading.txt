@@ -1,0 +1,13 @@
+Windows ending is: ^M$ --> \r\n
+Unix ending is: $ --> \n
+std::getline(std::cin, line) reads line to \n so
+for input: "0 - a 1  b    c    d 5"
+it reads: "0 - a 1  b    c    d 5\r"
+so \r is additionally and it causes problem that it prints: ]ead line: [0 - a 1  b    c    d 5
+To solve it I converted it to unix like file: dos2unix input.in
+Command to see invisible characters: cat -A input.in
+
+pos = ss.tellg(); --> zistí pozíciu kurzora, ktorý číta jednotlivé charactery
+std::cout << "Position 1: " << pos << std::endl;
+
+ss.seekg(pos); --> posunie sa na pozíciu, ktorá je definovaná v pos
